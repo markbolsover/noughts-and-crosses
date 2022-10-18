@@ -1,0 +1,32 @@
+.container {
+    height: 900px;
+    width: 900px;
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    padding: 100px;
+}
+
+.container * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 200px;
+    background-color: lightgrey;
+    border-color: black;
+    border-style: solid;
+}
+
+.box {
+    height:300px;
+    width: 300px;
+}
+
+h1 {
+text-align: center;
+}
+
+button {
+    margin-left: 100px;
+    font-size: 50px;
+}
+
